@@ -23,11 +23,8 @@ package cn.edu.seu.cose.jellyjolly.model;
 public class Link {
 
     private long linkId;
-
     private String title;
-
     private String image;
-
     private String url;
 
     public long getLinkId() {
@@ -61,5 +58,4 @@ public class Link {
     public void setUrl(String url) {
         this.url = url;
     }
-
 }

@@ -14,7 +14,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
 package cn.edu.seu.cose.jellyjolly.model;
 
 /**
@@ -24,7 +23,6 @@ package cn.edu.seu.cose.jellyjolly.model;
 public class BlogPageBar {
 
     private int blogPageId;
-
     private String pageTitle;
 
     public int getBlogPageId() {
@@ -42,5 +40,4 @@ public class BlogPageBar {
     public void setPageTitle(String pageTitle) {
         this.pageTitle = pageTitle;
     }
-
 }

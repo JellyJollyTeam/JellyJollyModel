@@ -23,7 +23,6 @@ package cn.edu.seu.cose.jellyjolly.model;
 public class Category {
 
     private int categoryId;
-
     private String name;
 
     public int getCategoryId() {
@@ -41,5 +40,4 @@ public class Category {
     public void setName(String name) {
         this.name = name;
     }
-
 }

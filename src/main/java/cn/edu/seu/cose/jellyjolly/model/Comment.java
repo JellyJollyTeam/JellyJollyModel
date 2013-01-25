@@ -25,21 +25,13 @@ import java.util.Date;
 public class Comment {
 
     private long commentId;
-
     private Comment parentComment;
-
     private long postId;
-
     private String authorName;
-
     private String authorEmail;
-
     private String authorHomePageUrl;
-
     private Date date;
-
     private String content;
-
     private long authorUserId;
 
     public void setCommentId(long commentId) {
@@ -113,5 +105,4 @@ public class Comment {
     public long getAuthorUserId() {
         return authorUserId;
     }
-
 }

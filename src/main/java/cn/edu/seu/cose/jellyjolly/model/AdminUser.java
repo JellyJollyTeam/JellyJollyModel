@@ -27,21 +27,13 @@ import java.util.Map;
 public class AdminUser {
 
     private long userId;
-
     private String username;
-
     private String password;
-
     private String email;
-
     private String homePageUrl;
-
     private String displayName;
-
     private Date registerTime;
-
     private Date lastLoginTime;
-
     private Map<String, String[]> otherProperties;
 
     public AdminUser() {
@@ -123,5 +115,4 @@ public class AdminUser {
     public Map<String, String[]> getOtherProperties() {
         return otherProperties;
     }
-
 }

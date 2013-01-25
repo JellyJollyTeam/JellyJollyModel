@@ -26,13 +26,9 @@ import java.util.Map;
 public class BlogInfo {
 
     private int blogId;
-
     private String blogTitle;
-
     private String blogSubTitle;
-
     private String blogUrl;
-
     private Map<String, String[]> otherProperties;
 
     public BlogInfo() {
@@ -82,5 +78,4 @@ public class BlogInfo {
     public Map<String, String[]> getOtherProperties() {
         return otherProperties;
     }
-
 }

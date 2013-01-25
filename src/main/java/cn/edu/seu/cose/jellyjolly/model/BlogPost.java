@@ -28,19 +28,12 @@ import java.util.Map;
 public class BlogPost {
 
     private long postId;
-
     private AdminUser author;
-
     private Category category;
-
     private Date date;
-
     private String title;
-
     private String content;
-
     private List<Comment> comments;
-
     private Map<String, String[]> otherProperties;
 
     public BlogPost() {
@@ -114,5 +107,4 @@ public class BlogPost {
     public Map<String, String[]> getOtherProperties() {
         return otherProperties;
     }
-
 }

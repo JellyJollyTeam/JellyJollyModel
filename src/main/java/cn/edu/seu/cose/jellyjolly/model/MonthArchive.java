@@ -14,7 +14,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
 package cn.edu.seu.cose.jellyjolly.model;
 
 /**
@@ -24,9 +23,7 @@ package cn.edu.seu.cose.jellyjolly.model;
 public class MonthArchive {
 
     private int year;
-
     private int month;
-
     private long count;
 
     public int getYear() {
@@ -52,5 +49,4 @@ public class MonthArchive {
     public void setCount(long count) {
         this.count = count;
     }
-
 }
